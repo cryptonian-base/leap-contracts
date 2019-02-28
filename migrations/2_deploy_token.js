@@ -17,7 +17,7 @@ module.exports = (deployer) => {
     log('Deployed LEAP Token at', nativeToken.address);
 
     //Cryptonian
-    const nfStorageToken = await deployer.deploy(StorageToken, "StorageToekn", "BASE");
+    const nfStorageToken = await deployer.deploy(StorageToken, "StorageToken", "BASE");
     log('Deployed NaiveStorageToken at', nfStorageToken.address);
     
   });
